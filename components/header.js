@@ -10,10 +10,10 @@ export default () => (
     </Link>
 
     <nav>
-      <a className="src" target="_blank" href="https://github.com/rauchg/blog">
+      <a className="src" target="_blank" href="https://github.com/utkarshshh/blog-1">
         Source
       </a>
-      <a className="follow" target="_blank" href="https://twitter.com/rauchg">
+      <a className="follow" target="_blank" href="https://twitter.com/wizugupta">
         Follow Me
       </a>
     </nav>

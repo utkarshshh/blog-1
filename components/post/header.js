@@ -33,11 +33,11 @@ export default ({
         <span className="meta">
           <a
             className="author"
-            href="https://twitter.com/rauchg"
+            href="https://twitter.com/wizugupta"
             target="_blank"
           >
-            <img src="https://pbs.twimg.com/profile_images/1029230542716264448/LgLb--Of_200x200.jpg" />
-            rauchg
+            <img src="https://pbs.twimg.com/profile_images/1312244571867209728/N63uto0m_400x400.jpg" />
+            utkarshg
           </a>
 
           {isMounted ? (
