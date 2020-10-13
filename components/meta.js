@@ -14,7 +14,7 @@ export default () => (
         href="/atom"
         type="application/atom+xml"
         rel="alternate"
-        title="Guillermo Rauch"
+        title="Utkarsh Gupta"
       />
     </Head>
 
