@@ -39,6 +39,5 @@
   },
   "prettier": {
     "arrowParens": "avoid"
-  },
-  "type": "module"
+  }
 }
