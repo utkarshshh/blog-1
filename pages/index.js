@@ -2,7 +2,7 @@ import Layout from "../components/layouts/main";
 import Link from "next/link";
 import { posts } from "../posts";
 
-export function getStaticProps() {
+export function getStaticProps() { //returns static page and url map for all posts in ../posts
   return {
     props: {
       posts: posts.map(post => ({
@@ -12,20 +12,21 @@ export function getStaticProps() {
     },
   };
 }
+// Post Attributes: id, date, url, title
 
 const Home = ({ posts, date }) => (
   <Layout>
     <ul>
       {posts.map(post => (
-        <li key={post.id}>
-          <span>{post.date}</span>
-          <Link href={post.url}>
+        <li key={post.id}> //list of posts using post id as uid
+          <span>{post.date}</span> //// TODO: how is span being used here?
+          <Link href={post.url}> //hyperlink post url with post title
             <a>{post.title}</a>
           </Link>
         </li>
       ))}
     </ul>
-
+//style tag has span style -> being used for date; 
     <style jsx>{`
       ul li {
         padding: 10px 15px;

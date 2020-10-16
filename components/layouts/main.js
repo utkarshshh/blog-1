@@ -16,16 +16,16 @@ export default ({ children, headerActive }) => {
       </Head>
 
       <style jsx global>
-        {reset}
+        {reset} //reset browser default styles, i will apply my own
       </style>
       <style jsx global>
-        {colors}
+        {colors} //// TODO: What does this do?
       </style>
       <style jsx global>
-        {nprogress}
+        {nprogress} //thin progress bar
       </style>
       <style jsx global>
-        {typography}
+        {typography} //// TODO: What does this do? 
       </style>
 
       <Header active={headerActive} />
